@@ -18,4 +18,10 @@ class BlogModel{
 		return $this->db->select("SELECT *FROM posts WHERE id = :id", ["id" =>$id])[0];
 	}
 
+	public function search( string $query): array{
+
+		return $this->db->select("SELECT * from posts WHERE title LIKE ? or body LIKE ?" , ["%$query%", "%$query%"]);
+
+	}
+
 }

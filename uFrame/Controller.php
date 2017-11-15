@@ -7,6 +7,7 @@
  */
 
 namespace uFrame;
+use Menu;
 
 class Controller
 {

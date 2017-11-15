@@ -6,7 +6,7 @@ define("CONFIG", [
 
     // Application
     "site_path" => "CA-Page",
-    "site_title" => "µFrame",
+    "site_title" => "Biker Club",
 
     // Database
     "use_database" => true,

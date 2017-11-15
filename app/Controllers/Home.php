@@ -7,6 +7,7 @@ class Home extends Controller
 
     public function index()
     {
+
         $data['header'] = "Home";
         $data['body'] = "This is the homepage of µFrame.<br><i>Microframe</i> is the lightweight Model-View-Controller based PHP framework.";
         $this->view("main", $data);
